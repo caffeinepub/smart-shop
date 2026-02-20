@@ -1,0 +1,65 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T19:08:43.020Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Add new images to the application as specified by the user in the image requirements section",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/hero-banner.dim_1200x400.png",
+          "frontend/public/assets/generated/organic-section.dim_800x500.png",
+          "frontend/public/assets/generated/promo-basket.dim_600x600.png",
+          "frontend/public/assets/generated/farm-to-table.dim_400x400.png"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/hero-banner.dim_1200x400.png",
+          "frontend/public/assets/generated/organic-section.dim_800x500.png",
+          "frontend/public/assets/generated/promo-basket.dim_600x600.png",
+          "frontend/public/assets/generated/farm-to-table.dim_400x400.png"
+        ]
+      },
+      {
+        "id": "REQ-2",
+        "summary": "Integrate the newly generated images into appropriate locations within the Smart Shop interface",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/components/Header.tsx",
+          "frontend/src/components/ProductGrid.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/components/Header.tsx",
+          "frontend/src/components/ProductGrid.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/farm-to-table.dim_400x400.png",
+    "frontend/public/assets/generated/hero-banner.dim_1200x400.png",
+    "frontend/public/assets/generated/organic-section.dim_800x500.png",
+    "frontend/public/assets/generated/promo-basket.dim_600x600.png",
+    "frontend/src/components/Header.tsx",
+    "frontend/src/components/ProductGrid.tsx",
+    "frontend/src/pages/Home.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

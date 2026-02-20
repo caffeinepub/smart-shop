@@ -1,0 +1,15 @@
+{
+  "frontend/src/index.css": "Global styles with market-inspired OKLCH color system featuring vibrant leafy greens, warm earthy browns, and orange accents for both light and dark modes, plus custom market texture utility.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration with custom market-inspired color palette, Poppins display font, custom shadows, and animation utilities for the vegetable marketplace theme.",
+  "frontend/src/App.tsx": "Root application component that renders the Home page.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for cart management including fetching cart contents, adding items, and clearing the cart with proper state invalidation.",
+  "frontend/src/utils/productImages.ts": "Utility functions to map product image references to the 8 uploaded marketplace images and provide random image selection.",
+  "frontend/src/utils/mockProducts.ts": "Mock product data with 12 vegetable products including details like name, price, description, category, and image references, plus helper functions for filtering and searching since backend lacks product retrieval methods.",
+  "frontend/src/components/Header.tsx": "Sticky header component with shop logo enhanced by farm-to-table badge overlay, branding, and shopping cart button with item count badge that opens the cart sheet.",
+  "frontend/src/components/Cart.tsx": "Shopping cart component displaying cart items with product images, quantities, prices, total calculation, and clear cart functionality in a slide-out sheet.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component showing product image, name, description, price, category badge, and add-to-cart button with hover effects and toast notifications.",
+  "frontend/src/components/ProductGrid.tsx": "Responsive grid layout component that renders product cards in a 1-4 column layout with enhanced empty state displaying promo basket image.",
+  "frontend/src/components/SearchBar.tsx": "Search input component with search icon for filtering products by name.",
+  "frontend/src/components/CategoryFilter.tsx": "Category filter component displaying category buttons that toggle between All, Vegetables, and Leafy Greens categories.",
+  "frontend/src/pages/Home.tsx": "Main homepage with hero banner image, search and category filters, product grid, new organic farm-to-table section with landscape image, and footer with social links and Caffeine attribution."
+}

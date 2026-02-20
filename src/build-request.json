@@ -1,0 +1,59 @@
+{
+  "kind": "build_request",
+  "title": "Add images to the application",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Add new images to the application as specified by the user in the image requirements section",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-10"
+        ],
+        "quotes": [
+          "আমি কিছু ছবি এড করতে চাই"
+        ]
+      },
+      "acceptanceCriteria": [
+        "New images are generated and placed in frontend/public/assets/generated",
+        "Images are accessible and render correctly in the application",
+        "Image filenames follow the naming convention with dimensions"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Integrate the newly generated images into appropriate locations within the Smart Shop interface",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-10"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Generated images are referenced in relevant components",
+        "Images enhance the visual appeal and functionality of the marketplace",
+        "All image paths resolve correctly to the generated assets"
+      ]
+    }
+  ],
+  "constraints": [
+    "Images must be placed in frontend/public/assets/generated directory",
+    "Do not modify read-only UI component sources in frontend/src/components/ui",
+    "Maintain the existing market-inspired visual theme"
+  ],
+  "nonGoals": [
+    "Changing the backend data structure",
+    "Modifying the existing product catalog functionality",
+    "Altering the authentication system"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Fresh produce banner with vibrant vegetables on wooden background (hero-banner.dim_1200x400.png)",
+      "Organic farming landscape with green fields (organic-section.dim_800x500.png)",
+      "Shopping basket filled with colorful vegetables (promo-basket.dim_600x600.png)",
+      "Farm-to-table concept illustration (farm-to-table.dim_400x400.png)"
+    ],
+    "edits": []
+  }
+}
